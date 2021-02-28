@@ -15,10 +15,6 @@ $(document).keypress (function() {
   }
 });
 
-$(document).addEventListener('touchstart', function() {
-  alert('I,m being touched');
-})
-
 $(".btn").click(function() {
 
   var userChosenColour = $(this).attr("id");
